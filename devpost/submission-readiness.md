@@ -14,7 +14,7 @@ Last checked: October 25, 2026, using the connected Devpost project list, curren
 - [x] Public MIT license URL: [LICENSE](https://github.com/aayushyadavji/rung/blob/main/LICENSE). GitHub repository page responds without authentication.
 - [x] Public application: [rung-phi-nine.vercel.app](https://rung-phi-nine.vercel.app/). Live landing page checked in Chrome; it renders Rung branding and the complete landing page.
 - [x] Rung app icon added at `app/icon.svg` to replace a default framework icon.
-- [x] Vercel Web Analytics package wired into the deployed Next.js root layout. **Still required:** enable Analytics in the Vercel project dashboard if it is not already enabled; confirm a `/_vercel/insights/view` request after visiting the site.
+- [x] Vercel Web Analytics is integrated in the deployed Next.js root layout; the production Analytics script endpoint returns HTTP 200.
 - [x] Next.js updated to 15.5.28; PostCSS patched to 8.5.31; `npm audit --omit=dev` reports zero production vulnerabilities.
 - [ ] Public demo video URL: not recorded or supplied.
 - [ ] A Rung project entry: not found in the connected account's current project list.
