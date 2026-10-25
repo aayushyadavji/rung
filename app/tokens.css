@@ -1,0 +1,30 @@
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 1.728rem; --text-section: 1.2rem; --text-title: 1rem; --text-lead: 1rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(99% 0.006 250); --color-paper-2: oklch(96.5% 0.012 250); --color-paper-3: oklch(94% 0.018 250);
+  --color-ink: oklch(23% 0.035 258); --color-ink-2: oklch(36% 0.035 258); --color-muted: oklch(51% 0.03 258);
+  --color-rule: oklch(89% 0.018 255);
+  --color-accent: oklch(47% 0.18 267); --color-accent-ink: oklch(98% 0.01 267); --color-focus: oklch(59% 0.19 267);
+  --font-display: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; --font-outlier: var(--font-body);
+  --paper: var(--color-paper); --paper-alt: var(--color-paper-2); --ink: var(--color-ink); --muted: var(--color-muted); --line: var(--color-rule); --accent: var(--color-accent);
+  --tier-light: oklch(52% 0.13 158); --tier-standard: oklch(53% 0.16 255); --tier-frontier: oklch(53% 0.18 300);
+  --font-sans: var(--font-body); --font-mono: ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
+  --bg-main: var(--color-paper); --bg-subtle: var(--color-paper-2); --bg-card: #fff; --bg-muted: var(--color-paper-2);
+  --border-subtle: var(--color-paper-2); --border-default: var(--color-rule); --border-dark: var(--color-rule);
+  --text-main: var(--color-ink); --text-muted: var(--color-muted); --text-subtle: var(--color-muted);
+  --primary: var(--color-accent); --primary-hover: var(--color-ink); --primary-fg: #fff;
+  --tier-light-dot: var(--tier-light); --tier-light-bg: oklch(96% 0.025 158); --tier-light-text: oklch(39% 0.12 158); --tier-light-border: oklch(87% 0.06 158);
+  --tier-standard-dot: var(--tier-standard); --tier-standard-bg: oklch(96% 0.025 255); --tier-standard-text: oklch(39% 0.13 255); --tier-standard-border: oklch(87% 0.06 255);
+  --tier-frontier-dot: var(--tier-frontier); --tier-frontier-bg: oklch(96% 0.025 300); --tier-frontier-text: oklch(39% 0.13 300); --tier-frontier-border: oklch(87% 0.06 300);
+  --flag-review-bg: oklch(97% 0.03 85); --flag-review-text: oklch(43% 0.11 65); --flag-review-border: oklch(88% 0.07 85);
+  --flag-risk-bg: oklch(97% 0.025 27); --flag-risk-text: oklch(43% 0.14 27); --flag-risk-border: oklch(88% 0.06 27);
+  --shadow-sm: 0 1px 2px oklch(20% 0.03 258 / 5%); --shadow-md: 0 8px 24px oklch(20% 0.03 258 / 6%); --shadow-lg: 0 16px 48px oklch(20% 0.03 258 / 8%);
+  --radius-card: 4px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: none;
+  --tracking-display: -0.02em;
+}
