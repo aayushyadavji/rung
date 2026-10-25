@@ -85,3 +85,10 @@ The PRD remains in browser state. Live mode transmits reviewed task IDs, titles,
 ## Run and manual acceptance
 
 Run `npm ci`, configure `.env.local` from `.env.example`, and use `npm run dev`. Analyze a non-confidential builder PRD in live mode; inspect an override and exported plan. Also check empty/no-task/oversized input, 20-task truncation, missing keys, provider errors, malformed output, and unavailable costs when profiles are empty.
+
+## Sharing
+
+- Public source repository: <https://github.com/aayushyadavji/rung>
+- Open-source license URL for the Devpost form: <https://github.com/aayushyadavji/rung/blob/main/LICENSE>
+- The repository is on `main`; the four implementation/documentation commits are pushed to `origin/main`.
+- The Devpost entry and public demo video are not yet supplied.

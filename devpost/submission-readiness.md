@@ -10,7 +10,8 @@ Last checked: October 25, 2026, using the connected Devpost project list and cur
 - [x] `scope.md`, `prd.md`, and `spec.md` are present in the repository root.
 - [x] An MIT `LICENSE` and blank `.env.example` are present. The real `.env` file is ignored.
 - [x] The Devpost Learn Skill Pack is installed locally; `skills-lock.json` records its source and hashes. The skill directory is local agent tooling and is excluded from the application source commit.
-- [ ] Public source repository URL: not configured; local Git has no remote or commits yet.
+- [x] Public source repository: [github.com/aayushyadavji/rung](https://github.com/aayushyadavji/rung). `main` is pushed, and the remote commit matches local HEAD.
+- [x] Public MIT license URL: [LICENSE](https://github.com/aayushyadavji/rung/blob/main/LICENSE). GitHub repository page responds without authentication.
 - [ ] Public demo video URL: not recorded or supplied.
 - [ ] A Rung project entry: not found in the connected account's current project list.
 - [ ] Devpost submission form: participant still needs to complete the required fields and submit.
@@ -35,12 +36,13 @@ The form's required answers are:
 
 The form also has optional organization name, suggested improvement, and additional value details. The participant must supply all personal, eligibility, and reflection answers truthfully. This checklist intentionally does not write submission copy or make eligibility declarations for the participant.
 
-## Before publishing the source
+## Source publication verification
 
-- Add the public repository URL here and to the Devpost project's repository / try-it-out field.
-- Confirm the repository is public and that GitHub detects the `LICENSE` at the repository root.
-- Confirm `.env`, `.env.local`, build output, dependencies, and local audit artifacts are excluded. Never commit API keys.
-- Keep `scope.md`, `prd.md`, and `spec.md` in the public repository and make sure they describe the implementation.
+- Public GitHub page checked without authentication; it returned HTTP 200.
+- The pushed `main` hash matched local HEAD; the working tree was clean at verification.
+- `.env`, `.env.local`, dependencies/build output, `.agents/`, and local audit snapshots are ignored or excluded. No recognized API-key/token patterns were found in publishable source files.
+- `scope.md`, `prd.md`, `spec.md`, and the root MIT license are present in the public repository.
+- Add the repository and license URLs to the Devpost project's repository / try-it-out and license fields when creating/updating that entry.
 
 ## Before submitting
 
@@ -54,4 +56,6 @@ The form also has optional organization name, suggested improvement, and additio
 
 - [Build With AI: Basics](https://learn-ai-basics.devpost.com/)
 - [Devpost Learn Skill Pack](https://github.com/challengepost/learn-ai-basics)
+- [Rung public repository](https://github.com/aayushyadavji/rung)
+- [Rung MIT license](https://github.com/aayushyadavji/rung/blob/main/LICENSE)
 - [Current Rung demo app](http://localhost:3001/) (local only; reviewers cannot access this URL)
