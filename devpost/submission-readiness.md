@@ -1,6 +1,6 @@
 # Build With AI: Basics — Submission Readiness
 
-Last checked: October 25, 2026, using the connected Devpost project list and current submission requirements.
+Last checked: October 25, 2026, using the connected Devpost project list, current submission requirements, and latest host announcements.
 
 ## Current state
 
@@ -10,15 +10,19 @@ Last checked: October 25, 2026, using the connected Devpost project list and cur
 - [x] `scope.md`, `prd.md`, and `spec.md` are present in the repository root.
 - [x] An MIT `LICENSE` and blank `.env.example` are present. The real `.env` file is ignored.
 - [x] The Devpost Learn Skill Pack is installed locally; `skills-lock.json` records its source and hashes. The skill directory is local agent tooling and is excluded from the application source commit.
-- [x] Public source repository: [github.com/aayushyadavji/rung](https://github.com/aayushyadavji/rung). `main` is pushed, and the remote commit matches local HEAD.
+- [x] Public source repository: [github.com/aayushyadavji/rung](https://github.com/aayushyadavji/rung). The previous source baseline is public; the current icon, analytics, and dependency updates are local changes and still need to be committed and pushed before they appear on the site.
 - [x] Public MIT license URL: [LICENSE](https://github.com/aayushyadavji/rung/blob/main/LICENSE). GitHub repository page responds without authentication.
+- [x] Public application: [rung-phi-nine.vercel.app](https://rung-phi-nine.vercel.app/). Live landing page checked in Chrome; it renders Rung branding and the complete landing page.
+- [x] Rung app icon added at `app/icon.svg` to replace a default framework icon.
+- [x] Vercel Web Analytics package wired into the Next.js root layout. **Still required:** enable Analytics in the Vercel project dashboard and deploy this code before collection begins.
+- [x] Next.js updated to 15.5.28; PostCSS patched to 8.5.31; `npm audit --omit=dev` reports zero production vulnerabilities.
 - [ ] Public demo video URL: not recorded or supplied.
 - [ ] A Rung project entry: not found in the connected account's current project list.
 - [ ] Devpost submission form: participant still needs to complete the required fields and submit.
 
 ## Official event requirements
 
-The current Devpost form marks a demo video as required. A website and ZIP file are not required. The public repository needs an open-source license file and its URL supplied in the form. Check the [event page](https://learn-ai-basics.devpost.com/) and form again before submission in case requirements change.
+The current Devpost form marks a public YouTube/Vimeo demo video under 3 minutes as required. A website and ZIP file are not required. The public repository needs an open-source license file and its URL supplied in the form. The latest host announcement says reviewers expect the app to appear early in the video, the opening screen to identify the app and audience, and the video to show the app and how it was built with the Learn Skill Pack. Check the [event page](https://learn-ai-basics.devpost.com/) and form again before submission in case requirements change.
 
 Current submission deadline: **Monday, October 26, 2026 at 5:00 PM ET** (**Tuesday, October 27 at 2:30 AM IST**). The event is still accepting submissions at this check.
 

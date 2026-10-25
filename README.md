@@ -26,6 +26,10 @@ npm run dev
 
 Open `http://localhost:3000`. Paste or upload a Markdown PRD, review the extracted tasks, then choose **Analyze with AI**.
 
+## Vercel deployment and analytics
+
+The app includes Vercel Web Analytics through `@vercel/analytics`. In the Vercel project, open **Analytics** and enable Web Analytics, then deploy this version. Vercel starts collecting page views after that deployment. No analytics environment variable or user account is required. The app does not send PRD/task contents as analytics events. The Rung SVG app icon is in `app/icon.svg`.
+
 ### Provider configuration
 
 Rung selects the provider on the server. If `OPENROUTER_API_KEY` is set, it uses OpenRouter and defaults to `openai/gpt-4o-mini`. Otherwise, if `NVIDIA_API_KEY` is set, it uses NVIDIA NIM and defaults to `nvidia/nemotron-3.5-super-vl-120b-a12b`. Set `OPENROUTER_MODEL_ID` or `NVIDIA_MODEL_ID` to change that provider's model. When both keys are configured, OpenRouter has priority. Restart the server after changing environment variables.
@@ -84,6 +88,8 @@ npm run start -- -p 3001
 ```
 
 The server exposes `POST /api/route-tasks` for live routing and `GET /api/workspace-config` for non-secret provider status. The second endpoint reports only the provider, model, and whether a server credential is configured; it never validates or returns the credential itself.
+
+Vercel's Analytics package is installed in the root layout. Collection depends on enabling Analytics in the Vercel project settings and deploying the updated app.
 
 ## Build With AI: Basics
 

@@ -2,7 +2,8 @@
 
 ## Stack and runtime
 
-- Next.js 14 App Router, React, and TypeScript.
+- Next.js 15.5.28 App Router, React 18, and TypeScript. Next.js 15.5.28 is the patched release used for this deployment; keep it current with supported security releases.
+- Vercel Web Analytics via `@vercel/analytics/next` in the root layout; collection is activated after enabling it for the Vercel project and deploying. Analytics receives page-view events only; PRD contents are not sent as custom events.
 - Browser-local state for PRD text, extracted tasks, results, and overrides. No database or account system.
 - Next.js Node.js route handler for server-to-server provider requests. OpenRouter takes priority; NVIDIA NIM is the fallback when OpenRouter is not configured.
 - OpenRouter endpoint: `https://openrouter.ai/api/v1/chat/completions`; default model `openai/gpt-4o-mini`, configurable via server-only `OPENROUTER_MODEL_ID`.
