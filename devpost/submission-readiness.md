@@ -10,11 +10,11 @@ Last checked: October 25, 2026, using the connected Devpost project list, curren
 - [x] `scope.md`, `prd.md`, and `spec.md` are present in the repository root.
 - [x] An MIT `LICENSE` and blank `.env.example` are present. The real `.env` file is ignored.
 - [x] The Devpost Learn Skill Pack is installed locally; `skills-lock.json` records its source and hashes. The skill directory is local agent tooling and is excluded from the application source commit.
-- [x] Public source repository: [github.com/aayushyadavji/rung](https://github.com/aayushyadavji/rung). The previous source baseline is public; the current icon, analytics, and dependency updates are local changes and still need to be committed and pushed before they appear on the site.
+- [x] Public source repository: [github.com/aayushyadavji/rung](https://github.com/aayushyadavji/rung). The current application update is pushed to `main` as `d129f20`.
 - [x] Public MIT license URL: [LICENSE](https://github.com/aayushyadavji/rung/blob/main/LICENSE). GitHub repository page responds without authentication.
 - [x] Public application: [rung-phi-nine.vercel.app](https://rung-phi-nine.vercel.app/). Live landing page checked in Chrome; it renders Rung branding and the complete landing page.
 - [x] Rung app icon added at `app/icon.svg` to replace a default framework icon.
-- [x] Vercel Web Analytics package wired into the Next.js root layout. **Still required:** enable Analytics in the Vercel project dashboard and deploy this code before collection begins.
+- [x] Vercel Web Analytics package wired into the deployed Next.js root layout. **Still required:** enable Analytics in the Vercel project dashboard if it is not already enabled; confirm a `/_vercel/insights/view` request after visiting the site.
 - [x] Next.js updated to 15.5.28; PostCSS patched to 8.5.31; `npm audit --omit=dev` reports zero production vulnerabilities.
 - [ ] Public demo video URL: not recorded or supplied.
 - [ ] A Rung project entry: not found in the connected account's current project list.
@@ -43,7 +43,7 @@ The form also has optional organization name, suggested improvement, and additio
 ## Source publication verification
 
 - Public GitHub page checked without authentication; it returned HTTP 200.
-- The pushed `main` hash matched local HEAD; the working tree was clean at verification.
+- The published `main` includes the Rung icon, Analytics component, Next.js 15.5.28, and PostCSS 8.5.31.
 - `.env`, `.env.local`, dependencies/build output, `.agents/`, and local audit snapshots are ignored or excluded. No recognized API-key/token patterns were found in publishable source files.
 - `scope.md`, `prd.md`, `spec.md`, and the root MIT license are present in the public repository.
 - Add the repository and license URLs to the Devpost project's repository / try-it-out and license fields when creating/updating that entry.
@@ -62,4 +62,4 @@ The form also has optional organization name, suggested improvement, and additio
 - [Devpost Learn Skill Pack](https://github.com/challengepost/learn-ai-basics)
 - [Rung public repository](https://github.com/aayushyadavji/rung)
 - [Rung MIT license](https://github.com/aayushyadavji/rung/blob/main/LICENSE)
-- [Current Rung demo app](http://localhost:3001/) (local only; reviewers cannot access this URL)
+- [Rung live application](https://rung-phi-nine.vercel.app/)
