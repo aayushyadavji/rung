@@ -1,0 +1,23 @@
+# Devpost Learn personal context
+/devpost/learner-profile.md
+
+# Environment and secrets
+.env
+.env*.local
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+.next/
+out/
+dist/
+build/
+
+# Local Hallmark design-audit snapshots
+.hallmark/
+
+# Installed Devpost Learn skills are local agent tooling, not app runtime code.
+/.agents/
