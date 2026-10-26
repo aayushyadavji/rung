@@ -4,6 +4,10 @@
 
 Rung turns a Markdown product requirements document into an editable task list, requests a capability-tier recommendation for each reviewed task, and exports a routing plan. Builders can inspect the recommendation evidence and override any tier. Rung is a planning assistant: it does not write or execute code.
 
+## Demo video
+
+[Watch the Rung demo on YouTube](https://youtu.be/h8k2LmR1AiE).
+
 ## Run locally
 
 Requirements: Node.js 20+ and npm.

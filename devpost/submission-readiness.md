@@ -16,7 +16,7 @@ Last checked: October 25, 2026, using the connected Devpost project list, curren
 - [x] Rung app icon added at `app/icon.svg` to replace a default framework icon.
 - [x] Vercel Web Analytics is integrated in the deployed Next.js root layout; the production Analytics script endpoint returns HTTP 200.
 - [x] Next.js updated to 15.5.28; PostCSS patched to 8.5.31; `npm audit --omit=dev` reports zero production vulnerabilities.
-- [ ] Public demo video URL: not recorded or supplied.
+- [x] Demo video URL supplied by the project owner: [YouTube demo](https://youtu.be/h8k2LmR1AiE). Confirm its visibility and playback before submitting.
 - [ ] A Rung project entry: not found in the connected account's current project list.
 - [ ] Devpost submission form: participant still needs to complete the required fields and submit.
 
@@ -52,7 +52,7 @@ The form also has optional organization name, suggested improvement, and additio
 
 - Record the working app early in the video, then show one complete workflow: PRD input, task review, live routing, recommendation inspection, optional override, and Markdown export.
 - Explain the actual Learn Skill Pack use in the participant's own words. Show the app working; don't show API keys or private PRDs.
-- Upload the video to a publicly playable location accepted by the current form and record its URL here: **not supplied**.
+- Confirm the YouTube video is publicly playable and add its URL to the Devpost video field: [https://youtu.be/h8k2LmR1AiE](https://youtu.be/h8k2LmR1AiE).
 - Complete all required form fields and eligibility declarations yourself.
 - Submit on Devpost and verify Devpost shows the submission as submitted. No submission is claimed by this repository.
 
